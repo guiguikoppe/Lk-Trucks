@@ -1,0 +1,11 @@
+Model Information:
+* title:	SCANIA S730 V8 - RICK MODDING
+* source:	https://sketchfab.com/3d-models/scania-s730-v8-rick-modding-d815e180d0e34c3f8edfc9a701f8b9cc
+* author:	Rick_modding (https://sketchfab.com/Rick_modding_)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SCANIA S730 V8 - RICK MODDING" (https://sketchfab.com/3d-models/scania-s730-v8-rick-modding-d815e180d0e34c3f8edfc9a701f8b9cc) by Rick_modding (https://sketchfab.com/Rick_modding_) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

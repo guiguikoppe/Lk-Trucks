@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>LK Trucks — Caminhão 3D</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+    href="../css/style.css">
+
+    <!-- MODEL VIEWER -->
+    <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    </script>
+
+</head>
+
+<body>
+
+<!-- OVERLAY -->
+<div class="nav-overlay"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+    <a href="index.html" class="logo">
+        LK<span>TRUCKS</span>
+    </a>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Início</a></li>
+
+        <li><a href="caminhoes.html">Caminhões</a></li>
+
+        <li><a href="estradas.html">Estradas</a></li>
+
+        <li><a href="cargas.html">Cargas</a></li>
+
+        <li><a href="caminhao3d.html">3D</a></li>
+
+    </ul>
+
+    <div class="nav-right">
+
+        <button class="theme-toggle"
+        aria-label="Alternar tema">
+
+            <i class="fas fa-sun"
+            id="theme-icon"></i>
+
+            <span id="theme-label">
+                Claro
+            </span>
+
+        </button>
+
+        <button class="hamburger"
+        aria-label="Menu">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</nav>
+
+<!-- SHOWCASE -->
+
+<section class="truck-showcase">
+
+    <!-- ESQUERDA -->
+
+    <div class="truck-left">
+
+        <span class="truck-tag">
+            FROTA PREMIUM
+        </span>
+
+        <h1>
+            SCANIA<br>
+            S730
+        </h1>
+
+        <p>
+            Potência extrema, tecnologia premium
+            e performance para qualquer estrada
+            do Brasil.
+        </p>
+
+        <!-- BOTÕES -->
+
+        <div class="truck-buttons">
+
+            <button>
+                Explorar
+            </button>
+
+            <button class="ghost-btn">
+                Performance
+            </button>
+
+        </div>
+
+        <!-- STATS -->
+
+        <div class="truck-stats">
+
+            <div class="stat-box">
+
+                <h3>730</h3>
+
+                <span>CV</span>
+
+            </div>
+
+            <div class="stat-box">
+
+                <h3>6x4</h3>
+
+                <span>TRAÇÃO</span>
+
+            </div>
+
+            <div class="stat-box">
+
+                <h3>3500</h3>
+
+                <span>TORQUE</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- DIREITA -->
+
+    <div class="truck-right">
+
+        <div class="truck-glow"></div>
+
+        <model-viewer
+
+            src="../models/scene.gltf"
+
+            camera-controls
+
+            auto-rotate
+
+            autoplay
+
+            shadow-intensity="1"
+
+            exposure="1"
+
+            environment-image="neutral"
+
+            interaction-prompt="none"
+
+            loading="eager"
+
+        >
+
+        </model-viewer>
+
+    </div>
+
+</section>
+
+<!-- INFO EXTRA -->
+
+<section class="truck-info-section">
+
+    <div class="truck-info-grid">
+
+        <!-- CARD -->
+
+        <div class="truck-info-card">
+
+            <i class="fas fa-engine"></i>
+
+            <h3>Motor</h3>
+
+            <p>V8 Euro 6</p>
+
+        </div>
+
+        <!-- CARD -->
+
+        <div class="truck-info-card">
+
+            <i class="fas fa-gauge-high"></i>
+
+            <h3>Velocidade</h3>
+
+            <p>140 km/h</p>
+
+        </div>
+
+        <!-- CARD -->
+
+        <div class="truck-info-card">
+
+            <i class="fas fa-gas-pump"></i>
+
+            <h3>Consumo</h3>
+
+            <p>2.1 km/l</p>
+
+        </div>
+
+        <!-- CARD -->
+
+        <div class="truck-info-card">
+
+            <i class="fas fa-truck-ramp-box"></i>
+
+            <h3>Carga</h3>
+
+            <p>Rodotrem</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-bottom">
+
+        © 2026 LK Trucks — Todos os direitos reservados
+
+    </div>
+
+</footer>
+
+<!-- SCRIPT -->
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
